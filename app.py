@@ -22,7 +22,7 @@ class Post(BaseModel):
 
 @app.get('/')
 def read_root():
-    return {"Marco Antonio Garrido": "Bienvenido a mi API"}
+    return {"Marco Antonio Garrido": "Bienvenido a mi REST API"}
 
 @app.get('/posts')
 def get_posts():
